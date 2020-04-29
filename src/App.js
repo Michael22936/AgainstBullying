@@ -12,8 +12,9 @@ function App() {
 
   return (
     <div>
-        <h1>Hello React</h1>
-        <button onClick={sayHello}>Hello</button>
+        <h1>This is the Hello component</h1>
+        <button onClick={sayHello}>Say Hello</button>
+        <Home/>
     </div>
   );
 }
